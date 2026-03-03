@@ -1,0 +1,32 @@
+/* Status Badges */
+.badge {
+  padding: var(--spacing-1) var(--spacing-3);
+  border-radius: var(--radius-full);
+  font-size: var(--text-sm);
+  display: inline-block;
+}
+
+.badge-pro {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: var(--color-emerald-400);
+}
+
+.badge-free {
+  background-color: rgba(71, 85, 105, 0.5);
+  color: var(--color-slate-300);
+}
+
+.badge-completed {
+  background-color: rgba(16, 185, 129, 0.2);
+  color: var(--color-emerald-400);
+}
+
+.badge-started {
+  background-color: rgba(59, 130, 246, 0.2);
+  color: var(--color-blue-400);
+}
+
+.badge-pending {
+  background-color: rgba(71, 85, 105, 0.5);
+  color: var(--color-slate-300);
+}

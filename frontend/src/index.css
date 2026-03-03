@@ -1,0 +1,18 @@
+/* CSS Variables */
+@import './styles/variables.css';
+
+/* Base styles */
+@import './styles/base.css';
+
+/* Component styles */
+@import './styles/components/layout.css';
+@import './styles/components/cards.css';
+@import './styles/components/badges.css';
+@import './styles/components/kanban.css';
+@import './styles/components/modal.css';
+
+/* Page styles */
+@import './styles/pages/home.css';
+@import './styles/pages/dashboard.css';
+@import './styles/pages/pricing.css';
+@import './styles/pages/auth.css';

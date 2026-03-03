@@ -1,0 +1,37 @@
+/* Home Page */
+.home-container {
+  max-width: 56rem;
+  margin: 0 auto;
+  padding: var(--spacing-20) var(--spacing-4);
+  text-align: center;
+}
+
+.home-title {
+  font-size: var(--text-5xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-6);
+}
+
+.home-title-accent {
+  color: var(--color-emerald-400);
+}
+
+.home-subtitle {
+  font-size: var(--text-xl);
+  color: var(--color-slate-400);
+  margin-bottom: var(--spacing-10);
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-buttons {
+  display: flex;
+  gap: var(--spacing-4);
+  justify-content: center;
+}
+
+.home-create-org {
+  display: flex;
+  justify-content: center;
+}

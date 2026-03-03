@@ -1,0 +1,70 @@
+/* Dashboard Page */
+.dashboard-container {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: var(--spacing-10) var(--spacing-4);
+}
+
+.dashboard-header {
+  margin-bottom: var(--spacing-6);
+}
+
+.dashboard-title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-1);
+}
+
+/* No Organization View */
+.no-org-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: var(--spacing-10) 0;
+}
+
+.no-org-title {
+  font-size: var(--text-3xl);
+  font-weight: 700;
+  margin-bottom: var(--spacing-4);
+}
+
+.no-org-text {
+  color: var(--color-slate-400);
+  font-size: var(--text-lg);
+  margin-bottom: var(--spacing-8);
+  max-width: 28rem;
+}
+
+/* Organization Info */
+.org-members {
+  color: var(--color-slate-400);
+  font-size: var(--text-sm);
+}
+
+.plan-pro {
+  color: var(--color-emerald-400);
+}
+
+.plan-free {
+  color: var(--color-slate-400);
+}
+
+/* Text helpers */
+.text-muted {
+  color: var(--color-slate-400);
+}
+
+.text-error {
+  color: var(--color-red-400);
+}
+
+.text-error-title {
+  font-weight: 600;
+}
+
+.text-error-message {
+  font-size: var(--text-sm);
+  margin-top: var(--spacing-1);
+}
